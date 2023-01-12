@@ -55,12 +55,31 @@ Resource
 // $results = print_r($c, true); // $results now contains output from print_r
 
 // php Calculation print ***
-
-$number = 12;
-// $result = $number - 20;
-// $result = (30 - 5) / (10 -5);
-$number += 30;
-// $number++;
-// $result++;
-echo $number;
+// $number = 12;
+// // $result = $number - 20;
+// // $result = (30 - 5) / (10 -5);
+// $number += 30;
+// // $number++;
+// // $result++;
+// echo $number;
 // echo $result;
+
+// php increment Decrement Details ***
+$number1 = $number2 = 20;
+// echo $number1 ."\n". $number2;
+$a = 30;
+$b = $a++;
+echo $a ."\n". $b."\n";
+
+$b = ++$a;
+echo $a ."\n". $b;
+
+// for post increment
+$b = $a++;
+$b = $a;
+$a = $a + 1;
+
+// for pre increment
+$b = ++$a;
+$a = $a + 1;
+$a = $b;
